@@ -1,25 +1,28 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
 }
 
 #tarjeta{
-	width: 800px;
-	height: 400px;
+	width: 650px;
+	height: 380px;
 	background-image: url(../img/kumamonbeach.jpg);
 	background-size: cover;
 	position: relative;
 }
 
+/*DISEÑO TARGETA LATERAL*/
 .contenedor{
-	width: 400px;
-	border-bottom: 400px solid grey;
-	border-left: 150px solid transparent;
+	width: 300px;
+	border-bottom: 380px solid #292822;
+	border-left: 160px solid transparent;
 	height: 0;
 	position: absolute;
 	right: 0;
 }
-
+/*POSICIONANDO LOGOS*/
 .logo1 img {
 	width: 200px;
 	position: absolute;
@@ -29,5 +32,27 @@ body{
 	width: 70px;
 	position: absolute;
 	right: 0;
-	top: 330px;
+	top: 310px;
+}
+.textos1{
+	margin-top: 80px;
+	margin-left: -40px;
+	text-align: center;
+	color: #fff;
+}
+.textos1 h1{
+	margin: 0;
+}
+
+.textos1 h2{
+	font-size: 15px;
+	color: #FAE51D;
+}
+.datos {
+	margin-top: 30px;
+	margin-left: 10px;
+}
+.datos p{
+	margin : 0;
+	color: #fff;
 }
