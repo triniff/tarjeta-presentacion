@@ -2,3 +2,32 @@ body{
 	margin: 0;
 	padding: 0;
 }
+
+#tarjeta{
+	width: 800px;
+	height: 400px;
+	background-image: url(../img/kumamonbeach.jpg);
+	background-size: cover;
+	position: relative;
+}
+
+.contenedor{
+	width: 400px;
+	border-bottom: 400px solid grey;
+	border-left: 150px solid transparent;
+	height: 0;
+	position: absolute;
+	right: 0;
+}
+
+.logo1 img {
+	width: 200px;
+	position: absolute;
+	left: -260px;
+}
+.logo2 img {
+	width: 70px;
+	position: absolute;
+	right: 0;
+	top: 330px;
+}
